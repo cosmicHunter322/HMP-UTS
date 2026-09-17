@@ -1,13 +1,16 @@
 # Clone repository
-
-```bash
+...
 git clone https://github.com/cosmicHunter322/HMP-UTS.git
 cd HMP-UTS
+...
 
 # Install dependencies
+...
 npm install
+...
 
-## Tutorial Git Dasar
+Tutorial Git Dasar
+...
 # Simpan perubahan
 git add .
 git commit -m "Pesan commit"
@@ -17,4 +20,4 @@ git push origin main
 
 # Tarik update terbaru
 git pull origin main
-
+...

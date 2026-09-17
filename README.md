@@ -1,4 +1,6 @@
-# Clone repository
+## Clone repository
+
+```bash
 ...
 git clone https://github.com/cosmicHunter322/HMP-UTS.git
 cd HMP-UTS
@@ -16,8 +18,8 @@ git add .
 git commit -m "Pesan commit"
 
 # Kirim ke GitHub
-git push origin main
+git push 
 
 # Tarik update terbaru
-git pull origin main
+git pull
 ...

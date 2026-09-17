@@ -5,6 +5,9 @@ cd HMP-UTS
 # Install dependencies
 npm install
 
+## 🔧 Tutorial Git Dasar
+
+```bash
 # Simpan perubahan
 git add .
 git commit -m "Pesan commit"
@@ -14,3 +17,4 @@ git push origin main
 
 # Tarik update terbaru
 git pull origin main
+

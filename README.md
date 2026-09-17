@@ -1,5 +1,9 @@
-# HMP-UTS
-projek uts hmp 
+# Clone repository
+git clone https://github.com/cosmicHunter322/HMP-UTS.git
+cd HMP-UTS
+
+# Install dependencies
+npm install
 
 # Simpan perubahan
 git add .
@@ -10,4 +14,3 @@ git push origin main
 
 # Tarik update terbaru
 git pull origin main
-

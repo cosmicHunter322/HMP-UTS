@@ -1,0 +1,446 @@
+{
+  "hash": "33249b4a",
+  "configHash": "6597a32e",
+  "lockfileHash": "74fd05bf",
+  "browserHash": "388a2b24",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "17a06fc9",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "e263a771",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "6502e6c1",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "8f149558",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "9180054c",
+      "needsInterop": false
+    },
+    "@ionic/angular/lazy": {
+      "src": "../../../../../../node_modules/@ionic/angular/dist/lazy/index.js",
+      "file": "@ionic_angular_lazy.js",
+      "fileHash": "7a824bab",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "animation-CAzXJ2I1-D34TSm8w": {
+      "file": "animation-CAzXJ2I1-D34TSm8w.js",
+      "isDynamicEntry": false
+    },
+    "button-active-DyyWVqU3-B-AtUX8W": {
+      "file": "button-active-DyyWVqU3-B-AtUX8W.js",
+      "isDynamicEntry": false
+    },
+    "capacitor-C041I3qZ-AKn9tKTZ": {
+      "file": "capacitor-C041I3qZ-AKn9tKTZ.js",
+      "isDynamicEntry": false
+    },
+    "common-Cwvxu5fs": {
+      "file": "common-Cwvxu5fs.js",
+      "isDynamicEntry": false
+    },
+    "compare-with-utils-sObYyvOy-PfxWXB4Z": {
+      "file": "compare-with-utils-sObYyvOy-PfxWXB4Z.js",
+      "isDynamicEntry": false
+    },
+    "config-DWCzVL3Y-CxfCWjLC": {
+      "file": "config-DWCzVL3Y-CxfCWjLC.js",
+      "isDynamicEntry": false
+    },
+    "core-GC7q_RMC": {
+      "file": "core-GC7q_RMC.js",
+      "isDynamicEntry": false
+    },
+    "createObject-BPYXfubG": {
+      "file": "createObject-BPYXfubG.js",
+      "isDynamicEntry": false
+    },
+    "cubic-bezier-hHmYLOfE-CQJriwBy": {
+      "file": "cubic-bezier-hHmYLOfE-CQJriwBy.js",
+      "isDynamicEntry": false
+    },
+    "dir-Dojwmvde-JWsS7_L7": {
+      "file": "dir-Dojwmvde-JWsS7_L7.js",
+      "isDynamicEntry": false
+    },
+    "focus-visible-BmVRXR1y-BtHv7wfJ": {
+      "file": "focus-visible-BmVRXR1y-BtHv7wfJ.js",
+      "isDynamicEntry": true
+    },
+    "format-D78cdY12-CN8_pjdm": {
+      "file": "format-D78cdY12-CN8_pjdm.js",
+      "isDynamicEntry": false
+    },
+    "forms-C4aYpz1q": {
+      "file": "forms-C4aYpz1q.js",
+      "isDynamicEntry": false
+    },
+    "framework-delegate-CUDbUfWS-SLUux__8": {
+      "file": "framework-delegate-CUDbUfWS-SLUux__8.js",
+      "isDynamicEntry": false
+    },
+    "from-D2rSBONj": {
+      "file": "from-D2rSBONj.js",
+      "isDynamicEntry": false
+    },
+    "gesture-controller-B_gJaBk0-B8pQAih_": {
+      "file": "gesture-controller-B_gJaBk0-B8pQAih_.js",
+      "isDynamicEntry": false
+    },
+    "haptic-D3njgGLB-CR0w36Fl": {
+      "file": "haptic-D3njgGLB-CR0w36Fl.js",
+      "isDynamicEntry": false
+    },
+    "helpers-BJFnZngp-COG28xNj": {
+      "file": "helpers-BJFnZngp-COG28xNj.js",
+      "isDynamicEntry": false
+    },
+    "index-BmLuEdV7-B8ieQZPS": {
+      "file": "index-BmLuEdV7-B8ieQZPS.js",
+      "isDynamicEntry": false
+    },
+    "index-BvabGprD-DxcnQO2v": {
+      "file": "index-BvabGprD-DxcnQO2v.js",
+      "isDynamicEntry": false
+    },
+    "index-CdoVp_rZ-D9b3Ui-I": {
+      "file": "index-CdoVp_rZ-D9b3Ui-I.js",
+      "isDynamicEntry": false
+    },
+    "index-DmnOg_xm-CoMu4g4x": {
+      "file": "index-DmnOg_xm-CoMu4g4x.js",
+      "isDynamicEntry": false
+    },
+    "index-DoY4e_3F-WyCxVzn9": {
+      "file": "index-DoY4e_3F-WyCxVzn9.js",
+      "isDynamicEntry": true
+    },
+    "index-Dvqtt_WK-CtfmC4By": {
+      "file": "index-Dvqtt_WK-CtfmC4By.js",
+      "isDynamicEntry": false
+    },
+    "index-iurdcGHg-CPNbFdxk": {
+      "file": "index-iurdcGHg-CPNbFdxk.js",
+      "isDynamicEntry": false
+    },
+    "index-obGyiHiO-C73DG7Nj": {
+      "file": "index-obGyiHiO-C73DG7Nj.js",
+      "isDynamicEntry": false
+    },
+    "input-shims-DognYvwv-BLgulV7r": {
+      "file": "input-shims-DognYvwv-BLgulV7r.js",
+      "isDynamicEntry": true
+    },
+    "input.utils-C3mVJhji-BdEM1-a9": {
+      "file": "input.utils-C3mVJhji-BdEM1-a9.js",
+      "isDynamicEntry": false
+    },
+    "ion-accordion_2.entry-D5h0cXiL": {
+      "file": "ion-accordion_2.entry-D5h0cXiL.js",
+      "isDynamicEntry": true
+    },
+    "ion-action-sheet.entry-VMcpgqzS": {
+      "file": "ion-action-sheet.entry-VMcpgqzS.js",
+      "isDynamicEntry": true
+    },
+    "ion-alert.entry-y6aDb8lo": {
+      "file": "ion-alert.entry-y6aDb8lo.js",
+      "isDynamicEntry": true
+    },
+    "ion-app_8.entry-C9vghfd3": {
+      "file": "ion-app_8.entry-C9vghfd3.js",
+      "isDynamicEntry": true
+    },
+    "ion-avatar_3.entry-Cto1P-F4": {
+      "file": "ion-avatar_3.entry-Cto1P-F4.js",
+      "isDynamicEntry": true
+    },
+    "ion-back-button.entry-IFW32el8": {
+      "file": "ion-back-button.entry-IFW32el8.js",
+      "isDynamicEntry": true
+    },
+    "ion-backdrop.entry-DH5NC9dl": {
+      "file": "ion-backdrop.entry-DH5NC9dl.js",
+      "isDynamicEntry": true
+    },
+    "ion-breadcrumb_2.entry-BoCddyUx": {
+      "file": "ion-breadcrumb_2.entry-BoCddyUx.js",
+      "isDynamicEntry": true
+    },
+    "ion-button_2.entry-juEU8BUl": {
+      "file": "ion-button_2.entry-juEU8BUl.js",
+      "isDynamicEntry": true
+    },
+    "ion-card_5.entry-LDZXtGrI": {
+      "file": "ion-card_5.entry-LDZXtGrI.js",
+      "isDynamicEntry": true
+    },
+    "ion-checkbox.entry-Bu85Nx2o": {
+      "file": "ion-checkbox.entry-Bu85Nx2o.js",
+      "isDynamicEntry": true
+    },
+    "ion-chip.entry-CQk6_FZD": {
+      "file": "ion-chip.entry-CQk6_FZD.js",
+      "isDynamicEntry": true
+    },
+    "ion-col_3.entry-BokfTq3z": {
+      "file": "ion-col_3.entry-BokfTq3z.js",
+      "isDynamicEntry": true
+    },
+    "ion-datetime-button.entry-GmFRsAjG": {
+      "file": "ion-datetime-button.entry-GmFRsAjG.js",
+      "isDynamicEntry": true
+    },
+    "ion-datetime.entry-B762i7Xx": {
+      "file": "ion-datetime.entry-B762i7Xx.js",
+      "isDynamicEntry": true
+    },
+    "ion-fab_3.entry-CWCL6DFF": {
+      "file": "ion-fab_3.entry-CWCL6DFF.js",
+      "isDynamicEntry": true
+    },
+    "ion-img.entry-Dp7sO9yY": {
+      "file": "ion-img.entry-Dp7sO9yY.js",
+      "isDynamicEntry": true
+    },
+    "ion-infinite-scroll_2.entry-Dnjg-92m": {
+      "file": "ion-infinite-scroll_2.entry-Dnjg-92m.js",
+      "isDynamicEntry": true
+    },
+    "ion-input-otp.entry-CRtY0FPQ": {
+      "file": "ion-input-otp.entry-CRtY0FPQ.js",
+      "isDynamicEntry": true
+    },
+    "ion-input-password-toggle.entry-DyQZ5wra": {
+      "file": "ion-input-password-toggle.entry-DyQZ5wra.js",
+      "isDynamicEntry": true
+    },
+    "ion-input.entry-5juoHM0R": {
+      "file": "ion-input.entry-5juoHM0R.js",
+      "isDynamicEntry": true
+    },
+    "ion-item-option_3.entry-vJMjSiUs": {
+      "file": "ion-item-option_3.entry-vJMjSiUs.js",
+      "isDynamicEntry": true
+    },
+    "ion-item_8.entry-CRp1Rsqs": {
+      "file": "ion-item_8.entry-CRp1Rsqs.js",
+      "isDynamicEntry": true
+    },
+    "ion-loading.entry-DAKO9mJy": {
+      "file": "ion-loading.entry-DAKO9mJy.js",
+      "isDynamicEntry": true
+    },
+    "ion-menu_3.entry-DD9RIqwz": {
+      "file": "ion-menu_3.entry-DD9RIqwz.js",
+      "isDynamicEntry": true
+    },
+    "ion-modal.entry-BdLcdn7H": {
+      "file": "ion-modal.entry-BdLcdn7H.js",
+      "isDynamicEntry": true
+    },
+    "ion-nav_2.entry-DXKb1mri": {
+      "file": "ion-nav_2.entry-DXKb1mri.js",
+      "isDynamicEntry": true
+    },
+    "ion-picker-column-option.entry-BaDqP6ie": {
+      "file": "ion-picker-column-option.entry-BaDqP6ie.js",
+      "isDynamicEntry": true
+    },
+    "ion-picker-column.entry-DxDhWsld": {
+      "file": "ion-picker-column.entry-DxDhWsld.js",
+      "isDynamicEntry": true
+    },
+    "ion-picker.entry-9yR6pvSP": {
+      "file": "ion-picker.entry-9yR6pvSP.js",
+      "isDynamicEntry": true
+    },
+    "ion-popover.entry-CIkmfUoy": {
+      "file": "ion-popover.entry-CIkmfUoy.js",
+      "isDynamicEntry": true
+    },
+    "ion-progress-bar.entry-CjN8YMww": {
+      "file": "ion-progress-bar.entry-CjN8YMww.js",
+      "isDynamicEntry": true
+    },
+    "ion-radio_2.entry-zYkgTofU": {
+      "file": "ion-radio_2.entry-zYkgTofU.js",
+      "isDynamicEntry": true
+    },
+    "ion-range.entry-DCl3vxHR": {
+      "file": "ion-range.entry-DCl3vxHR.js",
+      "isDynamicEntry": true
+    },
+    "ion-refresher_2.entry-BvyIWDRY": {
+      "file": "ion-refresher_2.entry-BvyIWDRY.js",
+      "isDynamicEntry": true
+    },
+    "ion-reorder_2.entry-Cgdp2dVr": {
+      "file": "ion-reorder_2.entry-Cgdp2dVr.js",
+      "isDynamicEntry": true
+    },
+    "ion-ripple-effect.entry-CVyWray2": {
+      "file": "ion-ripple-effect.entry-CVyWray2.js",
+      "isDynamicEntry": true
+    },
+    "ion-route_4.entry-DP7Re_Vc": {
+      "file": "ion-route_4.entry-DP7Re_Vc.js",
+      "isDynamicEntry": true
+    },
+    "ion-searchbar.entry-G0FHh23z": {
+      "file": "ion-searchbar.entry-G0FHh23z.js",
+      "isDynamicEntry": true
+    },
+    "ion-segment-content.entry-BZTGNByl": {
+      "file": "ion-segment-content.entry-BZTGNByl.js",
+      "isDynamicEntry": true
+    },
+    "ion-segment-view.entry-CC-oo3kF": {
+      "file": "ion-segment-view.entry-CC-oo3kF.js",
+      "isDynamicEntry": true
+    },
+    "ion-segment_2.entry-CEIk4EzC": {
+      "file": "ion-segment_2.entry-CEIk4EzC.js",
+      "isDynamicEntry": true
+    },
+    "ion-select-modal.entry-DptNtlbA": {
+      "file": "ion-select-modal.entry-DptNtlbA.js",
+      "isDynamicEntry": true
+    },
+    "ion-select_3.entry-BQOIc9Q1": {
+      "file": "ion-select_3.entry-BQOIc9Q1.js",
+      "isDynamicEntry": true
+    },
+    "ion-spinner.entry-Cy8jCR7x": {
+      "file": "ion-spinner.entry-Cy8jCR7x.js",
+      "isDynamicEntry": true
+    },
+    "ion-split-pane.entry-BuxuFlSl": {
+      "file": "ion-split-pane.entry-BuxuFlSl.js",
+      "isDynamicEntry": true
+    },
+    "ion-tab-bar_2.entry-DuYdMxpB": {
+      "file": "ion-tab-bar_2.entry-DuYdMxpB.js",
+      "isDynamicEntry": true
+    },
+    "ion-tab_2.entry-BG9whbV_": {
+      "file": "ion-tab_2.entry-BG9whbV_.js",
+      "isDynamicEntry": true
+    },
+    "ion-text.entry-yknJiHJo": {
+      "file": "ion-text.entry-yknJiHJo.js",
+      "isDynamicEntry": true
+    },
+    "ion-textarea.entry-BnsZbAXq": {
+      "file": "ion-textarea.entry-BnsZbAXq.js",
+      "isDynamicEntry": true
+    },
+    "ion-toast.entry-DwPFjC0s": {
+      "file": "ion-toast.entry-DwPFjC0s.js",
+      "isDynamicEntry": true
+    },
+    "ion-toggle.entry-8tvUYuOO": {
+      "file": "ion-toggle.entry-8tvUYuOO.js",
+      "isDynamicEntry": true
+    },
+    "ionic-global-BSaFA7np-C0AYHzhu": {
+      "file": "ionic-global-BSaFA7np-C0AYHzhu.js",
+      "isDynamicEntry": false
+    },
+    "item-multiple-inputs-CffmpUe9-DzsiBYo5": {
+      "file": "item-multiple-inputs-CffmpUe9-DzsiBYo5.js",
+      "isDynamicEntry": false
+    },
+    "keyboard-Cz4hUjuj-C2WFv-Ft": {
+      "file": "keyboard-Cz4hUjuj-C2WFv-Ft.js",
+      "isDynamicEntry": false
+    },
+    "keyboard-Dsc85bts-DNYTTm3t": {
+      "file": "keyboard-Dsc85bts-DNYTTm3t.js",
+      "isDynamicEntry": true
+    },
+    "keyboard-controller-BLvRgxgP-CvdYuwot": {
+      "file": "keyboard-controller-BLvRgxgP-CvdYuwot.js",
+      "isDynamicEntry": false
+    },
+    "lock-controller-B-hirT0v-wdq_Ov9y": {
+      "file": "lock-controller-B-hirT0v-wdq_Ov9y.js",
+      "isDynamicEntry": false
+    },
+    "overlay-control-label-BSQPZ79H-C3sbMJlx": {
+      "file": "overlay-control-label-BSQPZ79H-C3sbMJlx.js",
+      "isDynamicEntry": false
+    },
+    "overlays-a_5AhqWk-BAKKNgyR": {
+      "file": "overlays-a_5AhqWk-BAKKNgyR.js",
+      "isDynamicEntry": false
+    },
+    "p-CEs5NmKW-LNNNVUeW": {
+      "file": "p-CEs5NmKW-LNNNVUeW.js",
+      "isDynamicEntry": false
+    },
+    "platform-browser-CCCxeeqh": {
+      "file": "platform-browser-CCCxeeqh.js",
+      "isDynamicEntry": false
+    },
+    "rolldown-runtime-D7D4PA-g": {
+      "file": "rolldown-runtime-D7D4PA-g.js",
+      "isDynamicEntry": false
+    },
+    "router-X9GUwMbM": {
+      "file": "router-X9GUwMbM.js",
+      "isDynamicEntry": false
+    },
+    "select-option-render-C_PCwA67-1dMTsVmU": {
+      "file": "select-option-render-C_PCwA67-1dMTsVmU.js",
+      "isDynamicEntry": false
+    },
+    "slot-mutation-controller-D7n8Peo2-BISKMHTP": {
+      "file": "slot-mutation-controller-D7n8Peo2-BISKMHTP.js",
+      "isDynamicEntry": false
+    },
+    "spinner-configs-D4RIp70E-H9KnQ5S7": {
+      "file": "spinner-configs-D4RIp70E-H9KnQ5S7.js",
+      "isDynamicEntry": false
+    },
+    "status-tap-BsTKKfug-DLl4D7l4": {
+      "file": "status-tap-BsTKKfug-DLl4D7l4.js",
+      "isDynamicEntry": true
+    },
+    "swipe-back-ibFGqXH2-TPpRkj_x": {
+      "file": "swipe-back-ibFGqXH2-TPpRkj_x.js",
+      "isDynamicEntry": true
+    },
+    "theme-byZM6qHV-CVcL0HyM": {
+      "file": "theme-byZM6qHV-CVcL0HyM.js",
+      "isDynamicEntry": false
+    },
+    "validity-DJztqcrH-if6nl8R-": {
+      "file": "validity-DJztqcrH-if6nl8R-.js",
+      "isDynamicEntry": false
+    },
+    "watch-options-Dtdm8lKC-Dz-LUoDw": {
+      "file": "watch-options-Dtdm8lKC-Dz-LUoDw.js",
+      "isDynamicEntry": false
+    }
+  }
+}

@@ -20,6 +20,14 @@ const routes: Routes = [
   {
     path: 'tentang',
     loadChildren: () => import('./tentang/tentang.module').then( m => m.TentangPageModule)
+  },
+  {
+    path: 'produk',
+    loadChildren: () => import('./produk/produk.module').then( m => m.ProdukPageModule)
+  },
+  {
+    path: 'detail-produk',
+    loadChildren: () => import('./detail-produk/detail-produk.module').then( m => m.DetailProdukPageModule)
   }
 
 ];

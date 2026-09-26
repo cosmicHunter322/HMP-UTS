@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/produk"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detail Produk</ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="product" [routerLink]="['/edit-produk', product.id]">
+        <ion-icon name="create-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div *ngIf="product; else notFound">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img [src]="product.imageUrl || 'assets/shapes.svg'" alt="Product Image"
+        style="max-width: 200px; border-radius: 10px;">
+    </div>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>{{ product.name }}</ion-card-title>
+        <ion-card-subtitle>Kategori: {{ product.category }}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-label>Stok Sisa</ion-label>
+            <ion-badge color="primary">{{ product.stock }}</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label>Harga Beli</ion-label>
+            <ion-note slot="end">Rp {{ product.buyPrice | number }}</ion-note>
+          </ion-item>
+          <ion-item>
+            <ion-label>Harga Jual</ion-label>
+            <ion-note slot="end">Rp {{ product.sellPrice | number }}</ion-note>
+          </ion-item>
+          <ion-item>
+            <ion-label>Potensi Untung</ion-label>
+            <ion-note slot="end" color="success">Rp {{ (product.sellPrice - product.buyPrice) | number }}</ion-note>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+    <ion-button expand="block" color="secondary" [disabled]="product.stock <= 0" (click)="addToCart()">
+      Tambah ke Keranjang
+    </ion-button>
+  </div>
+
+  <ng-template #notFound>
+    <div style="text-align: center; margin-top: 50px;">
+      <h2>Produk tidak ditemukan!</h2>
+    </div>
+  </ng-template>
+</ion-content>

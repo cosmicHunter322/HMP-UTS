@@ -1,13 +1,19 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>pengaturan</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/tabs/dashboard"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pengaturan</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">pengaturan</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-icon slot="start" name="moon-outline"></ion-icon>
+      <ion-label>Mode Gelap</ion-label>
+      <ion-toggle [checked]="isDarkMode" (ionChange)="toggleDarkMode($event)"></ion-toggle>
+    </ion-item>
+  </ion-list>
 </ion-content>

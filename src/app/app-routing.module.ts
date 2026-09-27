@@ -5,13 +5,26 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },  {
+  },
+  {
     path: 'dashboard',
-    loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+    redirectTo: '/tabs/dashboard',
+    pathMatch: 'full'
+  },
+  {
+    path: 'produk',
+    redirectTo: '/tabs/produk',
+    pathMatch: 'full'
+  },
+  {
+    path: 'transaksi',
+    redirectTo: '/tabs/transaksi',
+    pathMatch: 'full'
   },
   {
     path: 'profil',
-    loadChildren: () => import('./profil/profil.module').then( m => m.ProfilPageModule)
+    redirectTo: '/tabs/profil',
+    pathMatch: 'full'
   },
   {
     path: 'pengaturan',
@@ -22,24 +35,29 @@ const routes: Routes = [
     loadChildren: () => import('./tentang/tentang.module').then( m => m.TentangPageModule)
   },
   {
-    path: 'produk',
-    loadChildren: () => import('./produk/produk.module').then( m => m.ProdukPageModule)
+    path: 'detail-produk/:id',
+    loadChildren: () => import('./detail-produk/detail-produk.module').then( m => m.DetailProdukPageModule)
   },
   {
-    path: 'detail-produk',
-    loadChildren: () => import('./detail-produk/detail-produk.module').then( m => m.DetailProdukPageModule)
+    path: 'tambah-produk',
+    loadChildren: () => import('./tambah-produk/tambah-produk.module').then( m => m.TambahProdukPageModule)
   },
   {
     path: 'keranjang',
     loadChildren: () => import('./keranjang/keranjang.module').then( m => m.KeranjangPageModule)
   },
   {
-    path: 'transaksi',
-    loadChildren: () => import('./transaksi/transaksi.module').then( m => m.TransaksiPageModule)
+    path: 'riwayat-transaksi',
+    redirectTo: '/tabs/transaksi',
+    pathMatch: 'full'
   },
   {
-    path: 'detail-transaksi',
+    path: 'detail-transaksi/:id',
     loadChildren: () => import('./detail-transaksi/detail-transaksi.module').then( m => m.DetailTransaksiPageModule)
+  },
+  {
+    path: 'edit-produk/:id',
+    loadChildren: () => import('./edit-produk/edit-produk.module').then( m => m.EditProdukPageModule)
   }
 
 ];

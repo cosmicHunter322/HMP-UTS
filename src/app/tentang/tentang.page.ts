@@ -1,10 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+// roybe mulai dari sini
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
+  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
+  changeDetection: ChangeDetectionStrategy.Default,
+  standalone: false,
+  
+  
+  
   selector: 'app-tentang',
   templateUrl: './tentang.page.html',
   styleUrls: ['./tentang.page.scss'],
-  standalone: false,
+  
 })
 export class TentangPage implements OnInit {
 
@@ -14,3 +21,4 @@ export class TentangPage implements OnInit {
   }
 
 }
+// roybe selesai sampai sini

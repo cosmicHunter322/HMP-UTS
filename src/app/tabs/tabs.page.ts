@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
+  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
+  changeDetection: ChangeDetectionStrategy.Default,
+  standalone: false,
+  
+  
+  
   selector: 'app-tabs',
   templateUrl: 'tabs.page.html',
   styleUrls: ['tabs.page.scss'],
-  standalone: false,
+  
 })
 export class TabsPage {
 

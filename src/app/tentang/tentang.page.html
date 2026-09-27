@@ -1,13 +1,34 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>tentang</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/tabs/dashboard"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Tentang Aplikasi</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tentang</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div style="text-align: center; margin-top: 50px;">
+    <h1>SIMOBILE</h1>
+    <p>Aplikasi Kasir Mobile Sederhana</p>
+    <p>Versi 1.0.0</p>
+  </div>
+  
+  <ion-card style="margin-top: 30px;">
+    <ion-card-header>
+      <ion-card-title>Tim Pengembang</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>Roybe</li>
+        <li>Aldy</li>
+        <li>Erza</li>
+        <li>Manto</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+
+
+

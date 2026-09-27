@@ -1,13 +1,46 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>dashboard</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Dashboard</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">dashboard</ion-title>
+      <ion-title size="large">Dashboard</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-card color="success">
+    <ion-card-header>
+      <ion-card-subtitle>Ringkasan Hari Ini</ion-card-subtitle>
+      <ion-card-title>Total Produk</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h1>{{ productService.getTotalProducts() }}</h1>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-subtitle>Penjualan</ion-card-subtitle>
+      <ion-card-title>Transaksi Hari Ini</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h1>{{ transactionService.getTodayTotalTransactions() }}</h1>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="warning">
+    <ion-card-header>
+      <ion-card-subtitle>Trend</ion-card-subtitle>
+      <ion-card-title>Produk Terlaris</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h2>{{ transactionService.getTopSellingProduct() }}</h2>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

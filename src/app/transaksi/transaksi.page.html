@@ -1,13 +1,27 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>transaksi</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Riwayat Transaksi</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">transaksi</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list *ngIf="transactionService.getTransactions().length > 0; else emptyTrx">
+    <ion-item *ngFor="let trx of transactionService.getTransactions()" [routerLink]="['/detail-transaksi', trx.id]" button>
+      <ion-label>
+        <h2>{{ trx.id }}</h2>
+        <p>{{ trx.date | date:'medium' }}</p>
+      </ion-label>
+      <ion-note slot="end" color="primary">Rp {{ trx.total | number }}</ion-note>
+    </ion-item>
+  </ion-list>
+
+  <ng-template #emptyTrx>
+    <div style="text-align: center; margin-top: 50px; color: gray;">
+      <ion-icon name="receipt-outline" style="font-size: 64px;"></ion-icon>
+      <h2>Belum ada transaksi</h2>
+    </div>
+  </ng-template>
 </ion-content>

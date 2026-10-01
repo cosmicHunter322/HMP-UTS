@@ -1,13 +1,41 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>detail-transaksi</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/transaksi"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detail Transaksi</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">detail-transaksi</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div *ngIf="transaction; else notFound">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>{{ transaction.date | date:'medium' }}</ion-card-subtitle>
+        <ion-card-title>{{ transaction.id }}</ion-card-title>
+      </ion-card-header>
+      
+      <ion-card-content>
+        <ion-list>
+          <ion-item *ngFor="let item of transaction.items">
+            <ion-label>
+              <h2>{{ item.product.name }}</h2>
+              <p>{{ item.quantity }} x Rp {{ item.product.sellPrice | number }}</p>
+            </ion-label>
+            <ion-note slot="end">Rp {{ (item.quantity * item.product.sellPrice) | number }}</ion-note>
+          </ion-item>
+        </ion-list>
+        
+        <h2 style="text-align: right; margin-top: 20px; font-weight: bold;">
+          Total: Rp {{ transaction.total | number }}
+        </h2>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <ng-template #notFound>
+    <div style="text-align: center; margin-top: 50px;">
+      <h2>Transaksi tidak ditemukan!</h2>
+    </div>
+  </ng-template>
 </ion-content>

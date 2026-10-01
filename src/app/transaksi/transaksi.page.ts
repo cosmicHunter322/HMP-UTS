@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { TransactionService } from '../services/transaction.service';
 
 @Component({
+  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
+  changeDetection: ChangeDetectionStrategy.Default,
+  standalone: false,
   selector: 'app-transaksi',
   templateUrl: './transaksi.page.html',
   styleUrls: ['./transaksi.page.scss'],
-  standalone: false,
 })
-export class TransaksiPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class TransaksiPage {
+  constructor(public transactionService: TransactionService) { }
 }

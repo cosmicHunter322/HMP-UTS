@@ -1,4 +1,3 @@
-// roybe mulai dari sini
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
@@ -30,4 +29,3 @@ export class AppComponent {
     alert('Logout berhasil disimulasikan.');
   }
 }
-// roybe selesai sampai sini

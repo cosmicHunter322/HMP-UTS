@@ -72,7 +72,6 @@ export class EditProdukPage implements OnInit {
     }
   }
 
-  // Reactive Form diwajibkan soal UTS. Validasi memakai kondisi biasa.
   validateName(control: AbstractControl) {
     if (String(control.value || '').trim() === '') {
       return { required: true };

@@ -6,6 +6,9 @@ cd HMP-UTS
 # Install dependencies
 npm install
 
+# menjalankan projek 
+ionic serve
+
 
 Tutorial Git Dasar
 
@@ -18,4 +21,5 @@ git push
 
 # Tarik update terbaru
 git pull
+
 

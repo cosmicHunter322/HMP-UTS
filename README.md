@@ -1,4 +1,4 @@
-#Daftar fitur yang berhasil di implementasi:
+Daftar fitur yang berhasil di implementasi:
 
 - Halaman Dashboard Penjualan: Menampilkan ringkasan informasi harian seperti total produk, transaksi hari ini, dan produk terlaris.
 - Navigasi Tab Bawah: Menu navigasi mencakup dashboard, produk, transaksi, dan profil.

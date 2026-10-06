@@ -1,4 +1,6 @@
-Daftar fitur yang berhasil di implementasi:
+#HMP-UTS Aplikasi SIMOBILE
+
+##Daftar fitur yang berhasil di implementasi:
 
 - Halaman Dashboard Penjualan: Menampilkan ringkasan informasi harian seperti total produk, transaksi hari ini, dan produk terlaris.
 - Navigasi Tab Bawah: Menu navigasi mencakup dashboard, produk, transaksi, dan profil.
@@ -12,9 +14,13 @@ Daftar fitur yang berhasil di implementasi:
 - Property & Event Binding: Menerapkan binding untuk menampilkan gambar default jika foto produk belum tersedia, mendisable tombol tambah ke keranjang secara otomatis jika stok habis (0), serta menangani aksi klik tombol.
 - Animasi: Efek animasi ringan saat perpindahan halaman dan foto profil.
 
+---
 
+## Panduan Instalasi & Menjalankan Proyek
 
-## Clone repository
+...bash
+
+# Clone repository
 git clone https://github.com/cosmicHunter322/HMP-UTS.git
 cd HMP-UTS
 

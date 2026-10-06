@@ -15,16 +15,16 @@ export interface Product {
 })
 export class ProductService {
   private products: Product[] = [
-    { id: 'p1', name: 'Beras Mentik 5kg', buyPrice: 50000, sellPrice: 60000, stock: 20, category: 'Sembako', imageUrl: 'https://picsum.photos/seed/beras/300/300' },
-    { id: 'p2', name: 'Gula Pasir 1kg', buyPrice: 12000, sellPrice: 15000, stock: 50, category: 'Sembako', imageUrl: 'https://picsum.photos/seed/gula/300/300' },
-    { id: 'p3', name: 'Minyak Goreng 2L', buyPrice: 28000, sellPrice: 32000, stock: 15, category: 'Sembako', imageUrl: 'https://picsum.photos/seed/minyak/300/300' },
-    { id: 'p4', name: 'Telur Ayam 1kg', buyPrice: 22000, sellPrice: 26000, stock: 0, category: 'Sembako', imageUrl: 'https://picsum.photos/seed/telur/300/300' },
-    { id: 'p5', name: 'Kopi Kapal Api', buyPrice: 10000, sellPrice: 12500, stock: 40, category: 'Minuman', imageUrl: 'https://picsum.photos/seed/kopi/300/300' },
-    { id: 'p6', name: 'Teh Celup Sariwangi', buyPrice: 5000, sellPrice: 7000, stock: 35, category: 'Minuman', imageUrl: 'https://picsum.photos/seed/teh/300/300' },
-    { id: 'p7', name: 'Sabun Mandi Lifebuoy', buyPrice: 3000, sellPrice: 4500, stock: 60, category: 'Kebersihan', imageUrl: 'https://picsum.photos/seed/sabun/300/300' },
-    { id: 'p8', name: 'Shampo Clear 170ml', buyPrice: 18000, sellPrice: 22000, stock: 25, category: 'Kebersihan', imageUrl: 'https://picsum.photos/seed/shampo/300/300' },
-    { id: 'p9', name: 'Pasta Gigi Pepsodent', buyPrice: 8000, sellPrice: 10000, stock: 30, category: 'Kebersihan', imageUrl: 'https://picsum.photos/seed/odol/300/300' },
-    { id: 'p10', name: 'Indomie Goreng', buyPrice: 2500, sellPrice: 3500, stock: 100, category: 'Makanan', imageUrl: 'https://picsum.photos/seed/indomie/300/300' },
+    { id: 'p1', name: 'Beras Mentik 5kg', buyPrice: 50000, sellPrice: 60000, stock: 20, category: 'Sembako', imageUrl: 'assets/produk/beras.jpg' },
+    { id: 'p2', name: 'Gula Pasir 1kg', buyPrice: 12000, sellPrice: 15000, stock: 50, category: 'Sembako', imageUrl: 'assets/produk/gula.jpg' },
+    { id: 'p3', name: 'Minyak Goreng 2L', buyPrice: 28000, sellPrice: 32000, stock: 15, category: 'Sembako', imageUrl: 'assets/produk/minyak.jpg' },
+    { id: 'p4', name: 'Telur Ayam 1kg', buyPrice: 22000, sellPrice: 26000, stock: 0, category: 'Sembako', imageUrl: 'assets/produk/telur.jpg' },
+    { id: 'p5', name: 'Kopi Kapal Api', buyPrice: 10000, sellPrice: 12500, stock: 40, category: 'Minuman', imageUrl: 'assets/produk/kopi.jpg' },
+    { id: 'p6', name: 'Teh Celup Sariwangi', buyPrice: 5000, sellPrice: 7000, stock: 35, category: 'Minuman', imageUrl: 'assets/produk/teh.jpg' },
+    { id: 'p7', name: 'Sabun Mandi Lifebuoy', buyPrice: 3000, sellPrice: 4500, stock: 60, category: 'Kebersihan', imageUrl: 'assets/produk/sabun.jpg' },
+    { id: 'p8', name: 'Shampo Clear 170ml', buyPrice: 18000, sellPrice: 22000, stock: 25, category: 'Kebersihan', imageUrl: 'assets/produk/shampo.jpg' },
+    { id: 'p9', name: 'Pasta Gigi Pepsodent', buyPrice: 8000, sellPrice: 10000, stock: 30, category: 'Kebersihan', imageUrl: 'assets/produk/odol.jpg' },
+    { id: 'p10', name: 'Indomie Goreng', buyPrice: 2500, sellPrice: 3500, stock: 100, category: 'Makanan', imageUrl: 'assets/produk/indomie.jpg' },
   ];
 
   constructor() { }

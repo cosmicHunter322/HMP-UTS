@@ -13,7 +13,7 @@ Daftar fitur yang berhasil di implementasi:
 - Animasi: Efek animasi ringan saat perpindahan halaman dan foto profil.
 
 
-```bash
+
 ## Clone repository
 git clone https://github.com/cosmicHunter322/HMP-UTS.git
 cd HMP-UTS

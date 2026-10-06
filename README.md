@@ -18,7 +18,7 @@
 
 ## Panduan Instalasi & Menjalankan Proyek
 
-...bash
+```bash
 
 # Clone repository
 git clone https://github.com/cosmicHunter322/HMP-UTS.git
@@ -31,7 +31,7 @@ npm install
 ionic serve
 
 
-Tutorial Git Dasar
+#Tutorial Git Dasar
 # Simpan perubahan
 git add .
 git commit -m "Pesan commit"

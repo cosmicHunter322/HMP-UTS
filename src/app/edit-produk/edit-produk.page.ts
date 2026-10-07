@@ -4,7 +4,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService, Product } from '../services/product.service';
 
 @Component({
-  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
   changeDetection: ChangeDetectionStrategy.Default,
   standalone: false,
   

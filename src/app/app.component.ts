@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
   changeDetection: ChangeDetectionStrategy.Default,
   standalone: false,
   

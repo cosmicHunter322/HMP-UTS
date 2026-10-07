@@ -5,7 +5,6 @@ import { AnimationController } from '@ionic/angular';
 import { ProductService, Product } from '../services/product.service';
 
 @Component({
-  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
   changeDetection: ChangeDetectionStrategy.Default,
   selector: 'app-tambah-produk',
   templateUrl: './tambah-produk.page.html',
@@ -66,7 +65,6 @@ export class TambahProdukPage implements OnInit {
     }
   }
 
-   // Reactive Form diwajibkan soal UTS. Validasi memakai kondisi biasa.
   validateName(control: AbstractControl) {
     if (String(control.value || '').trim() === '') {
       return { required: true };

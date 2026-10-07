@@ -24,7 +24,6 @@ export class TransactionService {
     const newTransaction: Transaction = {
       id: 'TRX-' + new Date().getTime(),
       date: new Date(),
-      // Salin data barang agar riwayat tidak ikut berubah saat produk diedit.
       items: items.map(item => ({
         product: { ...item.product },
         quantity: item.quantity

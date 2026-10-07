@@ -73,7 +73,6 @@ export class KeranjangPage implements OnInit {
       return;
     }
 
-    // Periksa semua stok sebelum menyimpan transaksi atau mengurangi barang.
     for (const item of this.cartItems) {
       const product = this.productService.getProductById(item.product.id);
       if (!product || product.stock < item.quantity) {

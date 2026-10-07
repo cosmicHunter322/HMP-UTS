@@ -1,8 +1,6 @@
-// roybe mulai dari sini
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
-  // Gunakan pembaruan tampilan biasa seperti proyek kelas.
   changeDetection: ChangeDetectionStrategy.Default,
   standalone: false,
   
@@ -21,4 +19,3 @@ export class TentangPage implements OnInit {
   }
 
 }
-// roybe selesai sampai sini
